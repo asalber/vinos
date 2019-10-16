@@ -1,0 +1,20 @@
+```{r data generation, echo = FALSE, results = "hide"}
+## QUESTION/ANSWER GENERATION
+n <- nrow(vinos[vinos$tipo == "blanco" & vinos$alcohol < 10, ])
+```
+
+Question
+========
+¿Cuántos vinos blancos tienen un contenido de alcohol menor de 10 grados?
+
+Solution
+========
+`r n`
+
+Meta-information
+================
+extype: num
+exsolution: `r n`
+exname: des-1
+extol: 0
+
