@@ -8,7 +8,7 @@ Author: Alfredo Sánchez Alberca <asalber@ceu.es>
 Maintainer: Alfredo Sánchez Alberca <asalber@ceu.es>
 Depends: rk.Teaching, rkward (>= 0.6.1)
 Enhances: rkward
-Description: Conjunto de datos del análisis de vinos verdes portugueses. 
+Description: Conjunto de datos del análisis de vinos verdes de Portugal. 
 License: GPL (>= 3)
 LazyLoad: yes
 LazyData: yes
