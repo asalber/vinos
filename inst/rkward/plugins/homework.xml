@@ -1,0 +1,21 @@
+<!--author: Alfredo Sánchez Alberca (asalber@ceu.es) -->
+
+<!DOCTYPE rkplugin>
+<document>
+	<code file="homework.js"/>
+	<help file="homework.rkh"/>
+
+	<dialog label="Generación de datos de vinos">
+		<input id="dni" label="Introducir DNI sin letra"/>
+	</dialog>
+
+	<wizard label="Generación de datos de vinos">
+		<page id="pag_vars">
+			<text>
+				Introducir el número del DNI sin la letra.
+				Se generará un nuevo conjunto de datos con los datos del trabajo.
+			</text>
+			<copy id="dni" />
+		</page>
+	</wizard>
+</document>

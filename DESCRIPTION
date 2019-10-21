@@ -1,11 +1,14 @@
+Encoding: UTF-8
 Package: vinos
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Title: Conjunto de datos de vinos
+Version: 1.0
+Date: 2019-10-01
+Author: Alfredo Sánchez Alberca <asalber@ceu.es>
+Maintainer: Alfredo Sánchez Alberca <asalber@ceu.es>
+Depends: rk.Teaching, rkward (>= 0.6.1)
+Enhances: rkward
+Description: Conjunto de datos del análisis de vinos verdes portugueses. 
+License: GPL (>= 3)
+LazyLoad: yes
+LazyData: yes
