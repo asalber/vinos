@@ -6,7 +6,7 @@ Version: 1.0
 Date: 2019-10-01
 Author: Alfredo Sánchez Alberca <asalber@ceu.es>
 Maintainer: Alfredo Sánchez Alberca <asalber@ceu.es>
-Depends: rkward (>= 0.6.5)
+Depends: 
 Enhances: rkward
 Description: Conjunto de datos del análisis de vinos verdes de Portugal. 
 License: GPL (>= 3)
